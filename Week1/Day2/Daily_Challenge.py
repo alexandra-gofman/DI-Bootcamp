@@ -16,4 +16,5 @@ for letter in user_string:
 
 user_string = list(user_string)
 random.shuffle(user_string)
-print(user_string)
+new_user_string = ''.join(user_string)
+print(new_user_string)
