@@ -1,0 +1,31 @@
+DATA STRUCTURES
+
+List: a sequence of ordered elements that can be changed (mutable)
+Tuple: a sequence of ordered elements that are immutable (can't be changed)
+Set: a sequence of unordered elements that are not duplicated is mutable (can be changed)
+
+Most used List methods:
+index(x) – returns the index of the first occurrence of x
+append(x) – adds x to the end of the list
+insert(i, x) – inserts x at position i
+sort() – sorts the list in place (modifies the list)
+sorted() – returns a new sorted list (original list stays the same)
+pop(i) – removes and returns the element at index i (last by default)
+remove(x) – removes the first occurrence of x
+extend(list2) – adds all elements from list2 to the end of the list
+sum() – returns the sum of all elements (numbers only)
+min() – returns the smallest element
+max() – returns the largest element
+
+Tuple methods:
+index(x) – returns the index of the first occurrence of x
+count(x) – returns how many times x appears
+sum() – returns the sum of all elements
+min() – returns the smallest element
+max() – returns the largest element
+Note: Tuples are immutable, so they don’t support methods like append() or remove().
+
+Set methods:
+union(set2) – returns a set with elements from both sets
+intersection(set2) – returns a set with only elements common to both
+difference(set2) – returns elements in the first set but not in set2
