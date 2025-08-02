@@ -1,0 +1,10 @@
+URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week2/Day2/Exercises_XP.py
+suggestions for improvement:
+- In Exercise 4, add input validation to ensure the user provides a number within the specified range (1-100).  Currently, it only checks after the function is called.
+- In Exercise 7, the bonus features (floating-point temperatures and season-based temperature ranges) are not implemented. The function `get_random_temp()` should be modified to accept a `season` parameter and adjust the temperature range accordingly.  Additionally, the user input for the month should be incorporated to determine the season.
+Brief justification:
+- correctness: The code correctly implements the core functionality of Exercises 1-6, and partially for Exercise 7.  All functions are defined and called as instructed. Exercise 7 lacks the bonus features, which is why the score is not 100%. Exercise 4 has a minor correctness issue: while it handles the ValueError within the function, it doesn't check the input beforehand, which means it could still throw an error if the user enters an invalid number before calling the function. 
+- readability: The code is generally well-structured and easy to follow. Function names are descriptive, and the code is well-commented where necessary. However, there's room for improvement in input validation handling in Exercise 4. 
+- performance: The code's performance is optimal for these simple tasks. There are no significant inefficiencies in terms of algorithm design or data structures.
+- security: The code doesn't have any security vulnerabilities.  The input validation in Exercise 4 prevents potential errors, making the code more robust.  Note that no external data is involved, and there is no data persistence. Therefore, no security risks are apparent.
+
