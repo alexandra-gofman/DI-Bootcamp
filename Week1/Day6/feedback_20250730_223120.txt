@@ -1,0 +1,11 @@
+URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week1/Day6/Daily_Challenge_Dictionaries.py
+suggestions for improvement:
+- In Challenge 1, the code correctly creates the dictionary with indices. However, it lacks error handling for non-alphabetic input.  Consider adding input validation.
+- In Challenge 2, the code's data cleaning (removing '$' and ',') is adequate for the given examples but might fail with more complex price formats.  Robust error handling for price parsing is needed (e.g., using `try-except` blocks).
+- Improve the variable names for better readability (e.g.,  `user_word_list` could be `word_list`, `user_word_dict` could be `letter_indices`).
+Brief justification:
+- correctness: Challenge 1's code successfully implements the core functionality described: creating a dictionary mapping letters to their indices. It uses loops, conditionals, and string manipulation (implicitly through `enumerate`), aligning well with the chapter's stated topics.  Challenge 2 largely succeeds in identifying affordable items and sorting them. However, both solutions lack robust error handling for edge cases, reducing the correctness score. The code directly addresses the problems outlined in the chapter content.
+- readability: The code is reasonably readable, but variable names could be more descriptive and concise. The structure is straightforward, making the logic easy to follow.  More comments explaining decisions would improve readability.
+- performance: The performance is efficient for the given input sizes.  The time complexity of both challenges is linear.  No significant performance issues are apparent.
+- security: The code does not have any obvious security vulnerabilities. It doesn't interact with external resources or handle user input in a way that introduces security risks.  The input validation is the main area for improvement.
+

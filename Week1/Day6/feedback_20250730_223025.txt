@@ -1,0 +1,11 @@
+URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week1/Day6/Exercises_XP.py
+suggestions for improvement:
+- In Exercise 2, the code doesn't handle potential errors if the user inputs non-numeric values for ages.  Add input validation.
+- In Exercise 3, the 'major_color' for the US is inconsistently formatted as a list while other countries are strings; maintain consistency.
+- In Exercise 4, while the code functions, using dictionary comprehensions would make it more concise and Pythonic.
+Brief justification:
+- correctness: The code correctly addresses most aspects of each exercise. Exercise 1 uses `zip` effectively to create a dictionary. Exercise 2 accurately calculates ticket costs based on age. Exercise 3 successfully manipulates the dictionary as instructed, though with minor inconsistencies. Exercise 4 creates the three dictionaries as specified.
+- readability: The code is generally readable, with clear variable names and comments where appropriate.  However, some improvements could make it easier to understand and maintain (see feedback).
+- performance: The code's performance is adequate for the given tasks.  The use of loops and direct dictionary operations is generally efficient.  There's room for improvement in Exercise 4 through the use of more concise methods (dictionary comprehensions).
+- security: The code does not contain any obvious security vulnerabilities. Input validation (as suggested above) would further enhance security.
+
