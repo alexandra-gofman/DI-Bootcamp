@@ -1,0 +1,10 @@
+URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week2/Day2/Exercises_XP.py
+suggestions for improvement:
+- In Exercise 4, while the function correctly handles the number range, it uses a `return` statement for success and failure messages.  Consider using `print()` statements within the function for clearer output, aligning with the instructions' expectation to print messages rather than return them.
+- In Exercise 7, the bonus features (floating-point temperatures and season-based temperatures) are not implemented. The instructions explicitly mention these as bonus features, so their absence slightly reduces the correctness score.
+Brief justification:
+- correctness: The code accurately implements Exercises 1, 2, 3, 5, and 6, aligning with the instructions' requirements for defining functions, using parameters, default values, and modifying lists. Exercise 4 has a minor deviation in how it handles output. Exercise 7 correctly implements the basic temperature advice but misses the bonus features. Overall, most exercises show a solid understanding of the concepts.
+- readability: The code is generally well-structured and easy to understand. Function names are descriptive, and the code is well-commented.  The use of f-strings for string formatting enhances readability.
+- performance: The code's performance is efficient.  The use of built-in functions and simple algorithms ensures that the code runs quickly and effectively. The random number generation is efficient and appropriate for this exercise.
+- security: The code is secure.  The only input from the user is in the exercise 4, where a `ValueError` is raised if the input is outside the expected range. This helps prevent unexpected errors and vulnerabilities.
+
