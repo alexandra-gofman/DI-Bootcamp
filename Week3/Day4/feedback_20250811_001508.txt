@@ -1,0 +1,19 @@
+URL: URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week3/Day4/Exercises_XP.py
+suggestions for improvement:
+- In Exercise 1, the error message in the `__add__` and `__iadd__` methods should dynamically reflect the actual currency types being added, rather than hardcoding 'dollar' and 'shekel'.
+- Exercise 1: The `__str__` and `__repr__` methods could be simplified using f-strings and conditional expressions to avoid redundant code.
+- Exercise 3: The random string generation can be made more concise using the `random.choices` function.
+- Exercise 5: The output formatting in Exercise 5 can be improved for better readability.  Consider using a more structured approach to display the time difference (e.g., separating days, hours, minutes, etc., more clearly).
+- Exercise 6: Add input validation to handle potential errors if the user enters an invalid date format.
+Correctness: 90%
+-----
+URL: URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week3/Day4/exercise_one.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week3/Day4/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
