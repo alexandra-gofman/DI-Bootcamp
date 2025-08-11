@@ -1,0 +1,11 @@
+URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week2/Day2/Daily_challenge_Solve_the_Matrix.py
+suggestions for improvement:
+- The function `create_list` could be simplified using list comprehension.
+- The logic for replacing symbols with spaces can be improved for better clarity and efficiency.  Currently, it adds spaces even between consecutive non-alphabetic characters which should be grouped into a single space.
+- Add more robust error handling (e.g., check for empty input or inconsistent row lengths).
+Brief justification:
+- correctness: The code largely follows the instructions in the chapter. It successfully transforms the matrix string into a 2D list, iterates through columns, filters alphabetic characters, and attempts to replace non-alphabetic characters with spaces. However, the space replacement is not perfectly accurate according to the prompt's specifications.  It correctly extracts the intended message but the spacing is not fully correct based on the grouping of symbols. The code directly addresses the problem described in the chapter content.
+- readability: The code is reasonably readable, with functions to separate concerns. However, some improvements in variable naming and the symbol replacement logic would enhance clarity.  The use of comments explaining what each part of the code is doing would improve readability. 
+- performance: The code's performance is acceptable for this task. The nested loops have a time complexity of O(m*n), where m is the number of rows and n is the number of columns. This is efficient for the problem size, but the space replacement logic could be optimized.
+- security: There are no security concerns in this code. It only handles string manipulation and does not interact with external resources or user inputs that could introduce security vulnerabilities.
+
