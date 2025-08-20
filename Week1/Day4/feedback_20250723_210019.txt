@@ -1,0 +1,10 @@
+URL: http://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week1/Day4/Daily_Challenge.py
+suggestions for improvement:
+- In Challenge 1, you could add input validation to ensure the user enters positive integers for both the number and length.  This would prevent potential errors.
+- In Challenge 2, using a more descriptive variable name than 'char' (e.g., 'last_char' or 'previous_char') would improve readability.
+Brief justification:
+- correctness: Both challenges are correctly implemented. Challenge 1 accurately generates a list of multiples of a number up to a specified length, directly addressing the instructions and utilizing the specified Python topics (input(), loops, lists, and arithmetic). Challenge 2 correctly removes consecutive duplicate letters from a string, again fulfilling all requirements and utilizing the specified Python topics (input(), strings, loops, and conditionals).  The code directly and accurately addresses the problem statements provided in the Chapter Content/Questions.
+- readability: The code is mostly readable.  Variable names are generally clear, and the logic is straightforward.  However, minor improvements in variable names (as suggested above) would enhance readability further. The code is well-structured and easy to follow, which makes it mostly readable.
+- performance: The performance of both solutions is excellent. Both use iterative approaches that are efficient for the given tasks. The time complexity is linear, O(n), for both challenges, where n is the length of the input.  There are no unnecessary computations or inefficient data structures.
+- security: The code is secure because it only uses input() for getting user data and does not perform any external operations or access sensitive information. There is no exposure to security risks given the context of the problem.
+

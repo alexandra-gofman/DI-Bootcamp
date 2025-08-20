@@ -1,0 +1,12 @@
+URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week2/Day3/Mini-Project_Tic_Tac_Toe.py
+suggestions for improvement:
+- Improve the `check_win` function to make it more concise and efficient.  The current implementation uses multiple loops and conditional checks; a more streamlined approach would enhance readability and performance. Consider checking for winning conditions row by row, column by column, and diagonally in a more organized fashion.
+- Enhance input validation in `player_input` to handle non-integer input gracefully. Currently, it will crash if a player enters something that's not an integer.
+- Add a clear indication at the start of the game explaining how to input moves (e.g., using numbers 1-9).
+- The board display could be improved for better visual clarity.  Consider using a library for more advanced board visualization, or adding more visual separators between cells to make it easier to read.
+Brief justification:
+- correctness: The code implements a Tic-Tac-Toe game with functions for board creation, display, player input, win checking, and draw checking, as specified in the instructions.  It largely fulfills the requirements.  The `check_win` function, while functional, could be improved for efficiency and readability. The input validation is somewhat lacking, as the program could crash if the user provides non-numeric input.  The game logic itself works for the most part, but some edge cases (like invalid input) could be handled more robustly.
+- readability: The code is generally readable, with functions that are reasonably well-named and documented.  However, the `check_win` function could be significantly improved by restructuring it for better clarity.  The use of nested loops in `check_win` makes it a bit harder to follow than it needs to be.
+- performance: The performance is acceptable for a small 3x3 board. The `check_win` function is the main performance bottleneck due to its multiple loops and checks. It works but would be slow for larger boards. Overall, the performance is reasonable for this scale of the problem.
+- security: The code doesn't have any obvious security vulnerabilities as it's a simple command-line game with no external interactions or data handling.  The only potential issue is the lack of input validation for the player's move, which could lead to a crash if non-integer input is entered. This issue is relatively minor, and is easily addressed.
+

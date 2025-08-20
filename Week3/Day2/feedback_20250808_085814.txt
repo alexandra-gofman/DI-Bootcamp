@@ -1,0 +1,12 @@
+URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week3/Day2/Exercises_XP.py
+suggestions for improvement:
+- In Exercise 1, the Siamese class could be enhanced by adding methods specific to Siamese cats, such as a unique vocalization or behavior.
+- In Exercise 3, the `play` method in the `PetDog` class is missing the `print` statement to display the output. The code should be updated to include this statement.
+- Exercise 3's `PetDog` class could benefit from clearer variable naming conventions for better readability. For example, `args` could be changed to `dogs` to more clearly represent its content.
+- Add input validation and error handling in Exercise 4 to prevent invalid data input like negative age.
+Brief justification:
+- correctness: The code correctly implements the core functionalities of Exercises 1, 2, 3, and 4, covering inheritance, class methods, polymorphism, and exception handling (implicitly, through error cases).  Exercise 1 demonstrates polymorphism through the `walk` method.  Exercise 2 shows class methods and attributes. Exercise 3 uses inheritance and the `super()` function. Exercise 4 demonstrates class interactions and conditional statements, closely aligning with the chapter's content. However, minor omissions and areas for improvement (listed in feedback) detract from a perfect correctness score.
+- readability: The code is well-structured and uses clear variable names for the most part. The code is well commented and uses descriptive names for variables and functions. The logic in the functions is easy to follow. However, some naming conventions could be more descriptive (Exercise 3) to improve clarity further.
+- performance: The code's performance is efficient; there are no major performance bottlenecks apparent in the provided code snippets.  The algorithms used are straightforward and have linear time complexity in most cases.
+- security: The code doesn't have any obvious security vulnerabilities.  It operates solely on the provided input and doesn't interact with external resources or handle sensitive data.
+

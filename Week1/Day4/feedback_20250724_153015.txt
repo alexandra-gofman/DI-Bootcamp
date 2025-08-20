@@ -1,0 +1,16 @@
+URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week1/Day4/Exercises_XP.py
+suggestions for improvement:
+- In Exercise 1, while the code correctly uses sets and their operations, it could benefit from more descriptive variable names (e.g., instead of `my_fav_numbers`, use `favorite_numbers`).
+- Exercise 6's `while` loop lacks error handling.  If the user enters non-string input, a `ValueError` will occur. Add a `try-except` block for better robustness.
+- In Exercise 7, error handling is missing for non-numeric input in age prompts. A `try-except` block would prevent crashes due to incorrect input.
+- Exercise 8 could use a `for` loop instead of a `while` loop for better readability and fewer lines of code.
+- Exercise 9's bonus section could be improved with clearer variable names (e.g., `allowed_attendees` instead of `new_list_of_names`).
+- Exercise 10 has an inefficient `while` loop for removing 'Pastrami'.  A list comprehension would be more efficient and Pythonic.
+- Use more descriptive variable names throughout to improve readability.  Single-letter variable names should be avoided except for simple loop counters (e.g., `i`, `j`).
+- Add comments to explain complex logic or non-obvious steps.  This improves code maintainability and understanding.
+Brief justification:
+- correctness: The code correctly addresses almost all exercises as defined in the chapter content, demonstrating understanding of sets, tuples, lists, loops (for and while), and basic input/output operations.  The minor inefficiencies and lack of error handling are the reason for the slightly lower score.
+- readability: The code is mostly readable, but variable names could be more descriptive, and comments would improve understanding. The structure is generally clear, but could be improved with more concise coding in a few places.
+- performance: The performance is good for most exercises.  However, the while loop in Exercise 10 and the handling of removing 'Pastrami' could be optimized. Similarly, the use of a list comprehension would be more efficient for removing items from a list. The rest of the code generally runs efficiently for the given inputs.
+- security: The code does not contain any obvious security vulnerabilities, as it primarily deals with user input and basic data manipulation. No sensitive data or external resources are accessed. Input sanitization (e.g., checking for valid number inputs) would enhance robustness, though.
+

@@ -1,0 +1,13 @@
+URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week1/Day2/Exercises_XP.py
+suggestions for improvement:
+- In Exercise 2, there's a typo; it should be `(99 ** 3) * 8`, not `(99 ** 3) * 3`.
+- Exercise 3 is presented as a solution rather than code.  It should be written as executable Python code.
+- In Exercise 5, string concatenation is used.  f-strings would improve readability.
+- Exercise 8 could include an `else` statement for a more complete response.
+- Add comments to your code to explain the logic, particularly in more complex exercises.
+Brief justification:
+- correctness: The code correctly addresses most exercises within the chapter content.  The errors are minor (typo in Exercise 2, incomplete solutions in Exercises 3 and 8, and less readable string concatenation in Exercise 5).  These issues don't invalidate the core functionality but detract from the overall correctness.
+- readability: The code is mostly readable.  However, the use of string concatenation in Exercise 5 and the lack of comments could impact readability.  Improving string formatting and adding comments would significantly enhance readability.
+- performance: The performance of the code is excellent; all operations are efficient for the given tasks. No optimization is needed.
+- security: No security concerns are present in this code.  It only deals with user input and simple calculations.
+

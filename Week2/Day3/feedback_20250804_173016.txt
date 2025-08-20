@@ -1,0 +1,15 @@
+URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week2/Day3/Mini-Project_Tic_Tac_Toe.py
+suggestions for improvement:
+- Improve the `check_win` function to make it more concise and efficient.  The current implementation is repetitive and could be simplified using loops or more elegant logic to check win conditions. Consider checking rows, columns, and diagonals in a more systematic way.
+- Enhance error handling in `player_input`.  While it checks for occupied spaces, it doesn't handle non-numeric input or input outside the range 1-9. Add input validation to gracefully handle these cases.
+- The board display (`display_board`) could be visually improved. Consider using more sophisticated string formatting or even a library for creating a cleaner, more visually appealing board representation.
+- Add a clear game start message and a more informative end-game message (e.g., 'Player X wins!' or 'It's a draw!').
+- The function names could be more descriptive (e.g., `get_player_move` instead of `get_position`).
+- Consider using a more descriptive variable name than `moves_pl` in the `check_win` function.  Something like `player_moves` would be clearer.
+- Add a function to handle the input of player names, and then incorporate this in the output messages to improve user experience.
+Brief justification:
+- correctness: The code implements a Tic-Tac-Toe game, fulfilling the core requirement of the chapter.  However, the `check_win` function is overly complex and could be improved for efficiency and readability. The handling of invalid player input is incomplete.  It addresses most aspects of the chapter content, such as list manipulation, user input, loops, conditionals, and functions, earning a score of 85%.
+- readability: The code is generally understandable, but some functions (particularly `check_win`) could be more concise and easier to follow. Better variable names and comments would improve readability.  The current structure is understandable but can be improved.
+- performance: The performance is reasonably good.  The biggest performance concern is the `check_win` function, which could be made significantly more efficient by rewriting it more concisely.  Otherwise, the code's execution time is efficient for a game of this size.
+- security: The code is reasonably secure. It handles invalid positions by preventing overwrites. However, input sanitization could be further improved to handle non-numeric input robustly.
+

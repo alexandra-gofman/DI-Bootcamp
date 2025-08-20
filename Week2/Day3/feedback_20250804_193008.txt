@@ -1,0 +1,11 @@
+URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week2/Day3/Daily_challenge_Challenges.py
+suggestions for improvement:
+- In Challenge 1, the code unnecessarily removes spaces using `user_string.replace(' ', '')`.  The problem statement specifies comma separation, not space separation.  This makes the code less robust and harder to understand. If spaces are present they will be incorrectly removed.
+- In Challenge 2, the function `compare_words` could be made more concise and efficient.  It currently iterates through the list even when it's clear no longer word can be the longest. An early return statement after finding a word with the max length can improve performance.
+- Both functions could benefit from more descriptive variable names (e.g., instead of `user_string`, perhaps `comma_separated_words`).
+Brief justification:
+- correctness: The code largely fulfills the requirements of both challenges. Challenge 1 correctly sorts comma-separated words, though it is unnecessarily strict about input formatting by ignoring spaces.  Challenge 2 correctly identifies the longest word in a sentence, handling punctuation correctly. The correctness score is reduced slightly due to unnecessary steps in Challenge 1 and slightly less concise code in Challenge 2.
+- readability: The code is relatively readable, with clear variable names (though improvements are suggested). The logic for sorting and finding the longest word is straightforward, but Challenge 1 could be simpler by not needing to handle extra spaces. The variable names could be more descriptive.
+- performance: The performance is acceptable for both challenges.  The sorting in Challenge 1 is efficient, and the loop in Challenge 2 is linear. However, Challenge 2's loop could be optimized to improve its performance further by ending the loop early when a max length is found.
+- security: There are no security vulnerabilities in the provided code.  It simply takes user input and performs string manipulation; it doesn't interact with external systems or handle sensitive data.
+
