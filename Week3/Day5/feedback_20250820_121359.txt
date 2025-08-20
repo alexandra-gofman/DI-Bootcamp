@@ -1,0 +1,32 @@
+URL: URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week3/Day5/Daily_challenge_Text_Analysis.py
+suggestions for improvement:
+- **Crucially, address the specific requirements of the exercises outlined in the chapter content.** The current code implements text analysis and modification features, which are entirely unrelated to 'Exercise 1: Random Sentence Generator' and 'Exercise 2: Working with JSON'. You need to write code that directly fulfills the instructions for those exercises.
+- For 'Exercise 1: Random Sentence Generator': Implement `get_words_from_file` to return a list of words, `get_random_sentence` using `random.choice()` and `str.join()`, and a `main` function for user input, validation, and program flow as described.
+- For 'Exercise 2: Working with JSON': Import the `json` module, use `json.loads()` to parse the provided `sampleJson`, access the 'salary' key, add the 'birth_date' key, and save the modified JSON to a file using `json.dump()` with `indent`.
+- Improve performance in `most_common_word`: Instead of calling `list.count()` inside a loop, use `collections.Counter` or a single pass with a dictionary to count word frequencies more efficiently.
+- Improve performance and correctness in `remove_stop_words` and `remove_special_characters`: Avoid repeated string concatenation (`+=`) in loops. Instead, append characters/words to a list and then use `''.join()` or `' '.join()` at the end. For `remove_stop_words`, the current implementation removes spaces, creating a single concatenated string of remaining words. You should add spaces between words.
+- Enhance `remove_stop_words` and `word_frequency` for case-insensitivity. Convert words to a consistent case (e.g., lowercase) before comparison and counting to ensure accuracy (e.g., 'The' and 'the' are treated as the same word).
+- Consider using a `set` for `stop_words_list` in `remove_stop_words` for faster lookup (average O(1) instead of O(N) for lists).
+- Add docstrings to classes and methods to clearly explain their purpose, arguments, and return values. This significantly improves code readability and maintainability.
+- Consider preprocessing the `self.text` (e.g., converting to lowercase, removing punctuation, splitting into words) once in the `__init__` method of the `Text` class, so subsequent methods can operate on a cleaner, pre-tokenized list of words without redundant processing.
+Correctness: 0%
+-----
+URL: URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week3/Day5/Exercises_XP.py
+suggestions for improvement:
+- Modify the `get_words_from_file` function to accept `file_path` as an argument, as specified in the instructions. Use `os.path.join` for constructing file paths to ensure cross-platform compatibility.
+- In the `main` function, when user input is invalid, print the error message and then terminate the program using `sys.exit()`, as suggested by the instructions, instead of returning a string.
+- For Exercise 2, ensure that you are strictly 'adding' the 'birth_date' key to the initial `sampleJson` provided in the exercise prompt (which does not contain 'birth_date' originally), rather than modifying an already existing key as shown in the provided code's `sampleJson`.
+- Avoid re-reading the word list file every time `get_random_sentence` is called. Instead, load the word list once (e.g., in the `main` function) and pass it as an argument to `get_random_sentence` to improve efficiency if the function were to be called multiple times.
+- Consider using `random.choice()` for selecting random words from the list in `get_random_sentence`, as it is often more idiomatic and concise than `random.randint()` followed by indexing.
+- For string concatenation in `get_random_sentence`, consider building a list of words and then using `' '.join(word_list)` for better performance and readability, especially if sentence lengths were to become very large.
+- Add docstrings to all functions (`get_words_from_file`, `get_random_sentence`, `main`) to explain their purpose, arguments, and return values, enhancing code readability.
+- Refactor the `dir_path` calculation to avoid repetition. It could be a module-level constant or a helper function.
+Correctness: 80%
+-----
+URL: URL: https://github.com/alexandra-gofman/DI-Bootcamp/blob/main/Week3/Day5/employee.json
+suggestions for improvement:
+- The provided content is a JSON data structure, not executable Python code. The exercises require Python code to implement the specified functionalities (e.g., defining functions, handling files, parsing/serializing JSON, generating random numbers).
+- To address the exercises, you need to write Python code that uses modules like `json` and `random`, performs file I/O, defines functions as specified, and includes logic for user input and validation.
+- For Exercise 2, you need to write Python code that first parses the initial `sampleJson` string using `json.loads()`, then programmatically accesses keys, adds the new 'birth_date' key to the dictionary, and finally saves the modified dictionary to a file using `json.dump()`.
+Correctness: 0%
+-----
